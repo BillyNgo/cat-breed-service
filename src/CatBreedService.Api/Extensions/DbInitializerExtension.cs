@@ -19,8 +19,7 @@ namespace CatBreedService.Api.Extensions
             }
             catch (Exception ex)
             {
-                var logger = services.GetRequiredService<ILogger>();
-                logger.Log(LogLevel.Error, ex.Message);
+                //ignore
             }
 
             return app;
