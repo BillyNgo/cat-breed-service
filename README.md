@@ -24,7 +24,6 @@ and build an API that allows users to upload and receive cute cat images.
 Sample .NET Core Web API application implemented with CQRS, Mediator Pattern approach and Domain Driven Design using Clean Architecture.
 
 ## Architecture:
-![alt text](https://github.com/BillyNgo/CatBreedService/blob/main/project-architecture.png)
 
 - Full architecture with responsibility separation concerns, SOLID and Clean Code
 - Domain Driven Design (Layers and Domain Model Pattern)
@@ -34,7 +33,8 @@ Sample .NET Core Web API application implemented with CQRS, Mediator Pattern app
 - Inversion of Control / Dependency injection
 - Azure Cosmos Db Emulator
 - Mediator
-
+  
+![alt text](https://github.com/BillyNgo/CatBreedService/blob/main/project-architecture.png)
 ![alt text](https://github.com/BillyNgo/CatBreedService/blob/main/mediatr.png)
 
 
