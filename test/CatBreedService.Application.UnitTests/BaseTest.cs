@@ -33,6 +33,8 @@ namespace CatBreedService.Application.UnitTests
                 .With(x => x.BreedId, "abys")
                 .Create();
 
+            _dbContext.Breeds.RemoveRange(_dbContext.Breeds);
+            _dbContext.Images.RemoveRange(_dbContext.Images);
             _dbContext.Breeds.Add(_breedFixture);
             _dbContext.Images.Add(_imageFixture);
             _dbContext.SaveChanges();
