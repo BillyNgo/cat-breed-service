@@ -1,4 +1,14 @@
-# cat-breed-service
+# [Cat Breed Service](https://github.com/BillyNgo/CatBreedService)
+
+[![LICENSE](https://img.shields.io/badge/license-MIT-lightgrey.svg)](https://raw.githubusercontent.com/dpedwards/dotnet-core-blockchain-advanced/master/LICENSE)
+[![.NET Core](https://img.shields.io/badge/dotnet%20core-%3E%3D%202.2-blue.svg)](https://dotnet.microsoft.com/download)
+[![Swagger](https://img.shields.io/badge/Swagger-lightgreen.svg)](https://swagger.io/)
+[![RabbitMQ](https://img.shields.io/badge/RabbitMQ-orange.svg)](https://www.rabbitmq.com/download.html)
+[![CQRS pattern](https://img.shields.io/badge/CQRS-pattern-blue.svg)](https://docs.microsoft.com/en-us/azure/architecture/patterns/cqrs)
+[![Mediator pattern](https://img.shields.io/badge/Mediator-pattern-blue.svg)](https://en.wikipedia.org/wiki/Mediator_pattern)
+[![DDD pattern](https://img.shields.io/badge/DDD-pattern-blue.svg)](https://docs.microsoft.com/en-us/dotnet/architecture/microservices/microservice-ddd-cqrs-patterns/ddd-oriented-microservice)
+
+This is a sample for NVG Backend Guild-day:  `.NET Core Microservice with RabbitMQ messaging`
 Sample .NET Core Web API CQRS implementation with Ef Core, Mediator, Cqrs and DDD using Clean Architecture.
 
 Give a Star! ⭐
