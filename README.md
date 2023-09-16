@@ -65,7 +65,7 @@ dotnet run
 ![alt text](https://github.com/BillyNgo/CatBreedService/blob/main/demo.png)
 
 
-# References
+## References
 
 - Microsoft Documentaton - [EF Core Azure Cosmos DB Provider](https://docs.microsoft.com/en-us/ef/core/providers/cosmos/)
 - YouTube Video - [Access Azure Cosmos DB with Entity Framework Core](https://www.youtube.com/watch?v=oyJSk-TV7_M)
