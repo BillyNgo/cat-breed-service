@@ -96,7 +96,7 @@ dotnet run
 
 ### Requirements
 
-- [Visual Studio](https://visualstudio.microsoft.com/de/vs/) or [Visual Studio Code](https://code.visualstudio.com/)
+- [Visual Studio 2022](https://visualstudio.microsoft.com/de/vs/) 
 - [.NET 6](https://dotnet.microsoft.com/en-us/download/dotnet/6.0)
 - [Azure Cosmos Db Emulator](https://learn.microsoft.com/en-us/azure/cosmos-db/local-emulator)
 
