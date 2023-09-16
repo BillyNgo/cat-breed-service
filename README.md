@@ -67,7 +67,7 @@ dotnet run
 
 ## References
 
-- Microsfot Documentation [Microservice DDD CQRS Patterns](https://learn.microsoft.com/en-us/dotnet/architecture/microservices/microservice-ddd-cqrs-patterns/ddd-oriented-microservice)
+- Microsoft Documentation [Microservice DDD CQRS Patterns](https://learn.microsoft.com/en-us/dotnet/architecture/microservices/microservice-ddd-cqrs-patterns/ddd-oriented-microservice)
 - Microsoft Documentaton - [EF Core Azure Cosmos DB Provider](https://docs.microsoft.com/en-us/ef/core/providers/cosmos/)
 - YouTube Video - [Access Azure Cosmos DB with Entity Framework Core](https://www.youtube.com/watch?v=oyJSk-TV7_M)
 - YouTube Video - [Using Entity Framework Core with Azure SQL DB and Azure Cosmos DB | Azure Friday](https://www.youtube.com/watch?v=FFgS_k_Muk8)
