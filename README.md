@@ -18,7 +18,7 @@ Description
 ----------------------------------------------------------------------------------------------------------------------
 Sample .NET Core Web API application implemented with CQRS, Mediator Pattern approach and Domain Driven Design.
 
-![alt text](https://github.com/BillyNgo/CatBreedService/blob/main/mediatr.png)
+![alt text](https://github.com/BillyNgo/CatBreedService/blob/main/demo.png)
 
 ## Techical Stack:
 - .NET 6.0
@@ -58,7 +58,7 @@ Run the following commands, in sequence, inside the **CatBreedService.Api** proj
 dotnet run
 ```
 **CatBreedService.Api** project is listening on localhost port `7045` (https) and `5173` (http)
-![alt text](https://github.com/BillyNgo/CatBreedService/blob/main/demo.png)
+
 
 
 
