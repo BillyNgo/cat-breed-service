@@ -42,6 +42,21 @@ To seed data for the first run:
 - Uncomment line number 73 `app.UseDataSeeding();` in Startup.cs under **CatBreedService.Api** project
 - For the next run please comment out line number 73 `app.UseDataSeeding();` in Startup.cs under **CatBreedService.Api** project
 
+## How to Test
+
+Run the following commands, in sequence, inside the application directory:
+
+```
+dotnet restore
+dotnet build
+```
+Run the following commands, in sequence, inside the **CatBreedService.Api** project directory:
+
+```
+dotnet run
+```
+**CatBreedService.Api** project is listening on localhost port `7045` (https) and `5173` (http)
+
 ![alt text](https://github.com/BillyNgo/CatBreedService/blob/main/mediatr.png)
 
 
