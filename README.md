@@ -19,6 +19,7 @@ Description
 Sample .NET Core Web API application implemented with CQRS, Mediator Pattern approach and Domain Driven Design.
 
 ![alt text](https://github.com/BillyNgo/CatBreedService/blob/main/mediatr.png)
+![alt text](https://github.com/BillyNgo/CatBreedService/blob/main/project-architecture.png)
 
 ## Techical Stack:
 - .NET 6.0
