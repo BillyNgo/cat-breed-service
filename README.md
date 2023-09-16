@@ -3,7 +3,7 @@
 [![LICENSE](https://img.shields.io/badge/license-MIT-lightgrey.svg)](https://raw.githubusercontent.com/dpedwards/dotnet-core-blockchain-advanced/master/LICENSE)
 [![.NET Core](https://img.shields.io/badge/.NET-6-blue.svg)](https://dotnet.microsoft.com/download](https://dotnet.microsoft.com/en-us/download/dotnet/6.0))
 [![Swagger](https://img.shields.io/badge/Swagger-lightgreen.svg)](https://swagger.io/)
-[![RabbitMQ](https://img.shields.io/badge/RabbitMQ-orange.svg)](https://www.rabbitmq.com/download.html)
+[![CosmosDb](https://img.shields.io/badge/Cosmos-Db-orange.svg)](https://learn.microsoft.com/en-us/azure/cosmos-db/local-emulator)
 [![CQRS pattern](https://img.shields.io/badge/CQRS-pattern-blue.svg)](https://docs.microsoft.com/en-us/azure/architecture/patterns/cqrs)
 [![Mediator pattern](https://img.shields.io/badge/Mediator-pattern-blue.svg)](https://en.wikipedia.org/wiki/Mediator_pattern)
 [![DDD pattern](https://img.shields.io/badge/DDD-pattern-blue.svg)](https://docs.microsoft.com/en-us/dotnet/architecture/microservices/microservice-ddd-cqrs-patterns/ddd-oriented-microservice)
@@ -17,6 +17,8 @@ If you like this project, learn something or you are using it in your applicatio
 Description
 ----------------------------------------------------------------------------------------------------------------------
 Sample .NET Core Web API application implemented with CQRS, Mediator Pattern approach and Domain Driven Design.
+
+![alt text](https://github.com/BillyNgo/CatBreedService/blob/main/mediatr.png)
 
 ## Techical Stack:
 - .NET 6.0
@@ -35,8 +37,9 @@ Sample .NET Core Web API application implemented with CQRS, Mediator Pattern app
 
 ## Installation
 
-Check if .NET 6.0 and Azure Cosmos Db Emulator is installed on your machine. Next configure the database connection string in `appsettings.Development.json` file before creating a needed database for project. 
-Database and seed data will be created automatically the first time you run the application.
+- Check if [.NET 6.0](https://dotnet.microsoft.com/en-us/download/dotnet/6.0) and [Azure Cosmos Db Emulator](https://learn.microsoft.com/en-us/azure/cosmos-db/local-emulator) is installed on your machine. 
+- Configure the database connection string in `appsettings.Development.json` file before creating a needed database for project. 
+- Database and seed data will be created automatically the first time you run the application.
 
 To seed data for the first run:
 - Uncomment line number 73 `app.UseDataSeeding();` in Startup.cs under **CatBreedService.Api** project
@@ -44,19 +47,24 @@ To seed data for the first run:
 
 ## How to Test
 
-Run the following commands, in sequence, inside the application directory:
+- Run the following commands, in sequence, inside the application directory:
 
 ```
 dotnet restore
 dotnet build
 ```
-Run the following commands, in sequence, inside the **CatBreedService.Api** project directory:
+- Run the following commands, in sequence, inside the **CatBreedService.Api** project directory:
 
 ```
 dotnet run
 ```
 **CatBreedService.Api** project is listening on localhost port `7045` (https) and `5173` (http)
 
-![alt text](https://github.com/BillyNgo/CatBreedService/blob/main/mediatr.png)
+- Navigate to `http://localhost:5000/swagger/index.html` to check the API documentation and test all endpoints.
+
+![alt text](https://github.com/BillyNgo/CatBreedService/blob/main/demo.png)
+
+
+
 
 
