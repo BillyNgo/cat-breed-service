@@ -42,5 +42,6 @@ To seed data for the first run:
 - Uncomment line number 73 `app.UseDataSeeding();` in Startup.cs under **CatBreedService.Api** project
 - For the next run please comment out line number 73 `app.UseDataSeeding();` in Startup.cs under **CatBreedService.Api** project
 
+![alt text](https://github.com/BillyNgo/CatBreedService/blob/master/mediatr.png)
 
 
