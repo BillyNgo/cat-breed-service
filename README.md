@@ -1,4 +1,4 @@
-# [Cat Breed Service](https://github.com/BillyNgo/CatBreedService)
+# [Cat-Breed-Service](https://github.com/BillyNgo/Cat-Breed-Service)
 
 [![LICENSE](https://img.shields.io/badge/license-MIT-lightgrey.svg)](https://raw.githubusercontent.com/dpedwards/dotnet-core-blockchain-advanced/master/LICENSE)
 [![.NET Core](https://img.shields.io/badge/.NET-6-blue.svg)](https://dotnet.microsoft.com/en-us/download/dotnet/6.0)
