@@ -37,8 +37,8 @@ Sample .NET Core Web API application implemented with CQRS, Mediator Pattern app
 
 Check if .NET 6.0 and Azure Cosmos Db Emulator is installed on your machine. Next configure the database connection string in `appsettings.Development.json` file before creating a needed database for project. 
 
-To seed data for database, select `CatBreedService.Api` in Visual Studio:
-- `Uncomment line number 73 in Startup.cs in CatBreedService.Api project`
+To seed data for database:
+- `Uncomment line number 73 in Startup.cs under **CatBreedService.Api** project`
 
 
 
