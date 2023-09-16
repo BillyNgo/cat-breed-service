@@ -19,7 +19,6 @@ Description
 Sample .NET Core Web API application implemented with CQRS, Mediator Pattern approach and Domain Driven Design.
 
 ## Techical Stack:
-----------------------------------------------------------------------------------------------------------------------
 - ASP.NET Core 6.0 (with .NET Core 6.0)
 - ASP.NET Core WebApi 
 - Entity Framework Core
