@@ -8,7 +8,7 @@
 [![Mediator pattern](https://img.shields.io/badge/Mediator-pattern-blue.svg)](https://en.wikipedia.org/wiki/Mediator_pattern)
 [![DDD pattern](https://img.shields.io/badge/DDD-pattern-blue.svg)](https://docs.microsoft.com/en-us/dotnet/architecture/microservices/microservice-ddd-cqrs-patterns/ddd-oriented-microservice)
 
-Sample .NET Core Web API CQRS implementation with Ef Core, Mediator, Cqrs and DDD using Clean Architecture.
+Sample .NET Core Web API application implemented with CQRS, Mediator Pattern approach and Domain Driven Design using Clean Architecture.
 
 Give a Star! ⭐
 ----------------------------------------------------------------------------------------------------------------------
@@ -16,6 +16,11 @@ If you like this project, learn something or you are using it in your applicatio
 
 Description
 ----------------------------------------------------------------------------------------------------------------------
+Everyone loves cats. To meet the high demand for beautiful cat images, we need
+to be able to provide pictures of cats at a moment's notice whenever someone
+requests them via the internet. The primary goal of this exercise is to structure
+and build an API that allows users to upload and receive cute cat images.
+
 Sample .NET Core Web API application implemented with CQRS, Mediator Pattern approach and Domain Driven Design using Clean Architecture.
 
 ![alt text](https://github.com/BillyNgo/CatBreedService/blob/main/mediatr.png)
