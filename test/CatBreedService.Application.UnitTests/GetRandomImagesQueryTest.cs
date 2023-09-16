@@ -11,6 +11,9 @@ namespace CatBreedService.Application.UnitTests
         [Fact]
         public async Task GetRandomImages_WhenNotFound_ThenReturnEmpty()
         {
+            _dbContext.Images.Remove(_imageFixture);
+            await _dbContext.SaveChangesAsync();
+
             var query = _fixture.Create<GetRandomImagesQuery>();
             var handler = new GetRandomImagesQueryHandler(_dbContext, _mapper);
 

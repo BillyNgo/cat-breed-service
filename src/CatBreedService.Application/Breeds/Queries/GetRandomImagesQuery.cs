@@ -26,7 +26,7 @@ namespace CatBreedService.Application.Breeds.Queries
                 // Get a random indexList from 0 -> numberOfImages
                 var imageCount = _dbContext.Images.Count();
                 var rand = new Random();
-                var indexList = Enumerable.Range(0, Limit)
+                var indexList = Enumerable.Range(0, Limit > imageCount ? imageCount : Limit)
                     .Select(i => new Tuple<int, int>(rand.Next(imageCount - 1), i))
                     .OrderBy(i => i.Item2)
                     .Select(i => i.Item1).ToList();
