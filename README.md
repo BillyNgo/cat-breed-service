@@ -114,6 +114,7 @@ dotnet run
 - [XUnit](https://xunit.net/)
 - [Moq](https://www.nuget.org/packages/Moq)
 - [AutoFixture](https://github.com/AutoFixture/AutoFixture)
+- [StyleCop](https://github.com/DotNetAnalyzers/StyleCopAnalyzers)
 
 
 ## Acknowledgments
