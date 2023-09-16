@@ -37,7 +37,7 @@ Sample .NET Core Web API application implemented with CQRS, Mediator Pattern app
 
 ## Installation
 
-- Check if .NET 6.0 and [Azure Cosmos Db Emulator](https://learn.microsoft.com/en-us/azure/cosmos-db/local-emulator) is installed on your machine. 
+- Check if [.NET 6.0](https://dotnet.microsoft.com/en-us/download/dotnet/6.0) and [Azure Cosmos Db Emulator](https://learn.microsoft.com/en-us/azure/cosmos-db/local-emulator) is installed on your machine. 
 - Next configure the database connection string in `appsettings.Development.json` file before creating a needed database for project. 
 - Database and seed data will be created automatically the first time you run the application.
 
