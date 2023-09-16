@@ -67,6 +67,45 @@ dotnet run
 
 ![alt text](https://github.com/BillyNgo/CatBreedService/blob/main/demo.png)
 
+---
+
+## Credits
+
+### Creator
+
+**Billy Ngo**
+
+- <https://github.com/billyngo>
+
+### Requirements
+
+- [Visual Studio](https://visualstudio.microsoft.com/de/vs/) or [Visual Studio Code](https://code.visualstudio.com/)
+- [.NET Core](https://dotnet.microsoft.com/download)
+- [SQL Server](https://www.microsoft.com/de-de/sql-server/sql-server-downloads)
+
+### Packages:
+
+- [Microsoft.NETCore.App](https://dotnet.microsoft.com/)
+- [MediatR](https://github.com/jbogard/MediatR)
+- [Microsoft.Extensions.DependencyInjection](https://dotnet.microsoft.com/apps/aspnet)
+- [AutoMapper](https://automapper.org/)
+- [FluentValidation](https://fluentvalidation.net/)
+- [Swashbuckle.AspNetCore](https://github.com/domaindrivendev/Swashbuckle.AspNetCore)
+- [Microsoft.EntityFrameworkCore](https://docs.microsoft.com/de-de/ef/core/)
+- [Microsoft.EntityFrameworkCore.Cosmos](https://docs.microsoft.com/de-de/ef/core/)
+- [Microsoft.EntityFrameworkCore.Inmemory](https://docs.microsoft.com/de-de/ef/core/)
+- [XUnit](https://xunit.net/)
+- [Moq](https://www.nuget.org/packages/Moq)
+- [AutoFixture](https://github.com/AutoFixture/AutoFixture)
+
+
+## Acknowledgments
+
+Inspiration, code snippets, etc.
+
+* [DDD Patern](https://docs.microsoft.com/en-us/dotnet/architecture/microservices/microservice-ddd-cqrs-patterns/ddd-oriented-microservice)
+* [Mediator Pattern](https://en.wikipedia.org/wiki/Mediator_pattern)
+* [CQRS Pattern](https://docs.microsoft.com/en-us/azure/architecture/patterns/cqrs)
 
 ## References
 
@@ -74,6 +113,33 @@ dotnet run
 - Microsoft Documentaton - [EF Core Azure Cosmos DB Provider](https://docs.microsoft.com/en-us/ef/core/providers/cosmos/)
 - YouTube Video - [Access Azure Cosmos DB with Entity Framework Core](https://www.youtube.com/watch?v=oyJSk-TV7_M)
 - YouTube Video - [Using Entity Framework Core with Azure SQL DB and Azure Cosmos DB | Azure Friday](https://www.youtube.com/watch?v=FFgS_k_Muk8)
+
+---
+
+## License
+
+MIT License
+
+Copyright (c) 2021 Billy Ngo
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
 
 
 
