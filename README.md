@@ -3,7 +3,7 @@
 [![LICENSE](https://img.shields.io/badge/license-MIT-lightgrey.svg)](https://raw.githubusercontent.com/dpedwards/dotnet-core-blockchain-advanced/master/LICENSE)
 [![.NET Core](https://img.shields.io/badge/.NET-6-blue.svg)](https://dotnet.microsoft.com/download](https://dotnet.microsoft.com/en-us/download/dotnet/6.0))
 [![Swagger](https://img.shields.io/badge/Swagger-lightgreen.svg)](https://swagger.io/)
-[![CosmosDb](https://img.shields.io/badge/Cosmos-Db-orange.svg)](https://aka.ms/cosmosdb-emulator)
+[![CosmosDb](https://img.shields.io/badge/Cosmos-Db-orange.svg)](https://learn.microsoft.com/en-us/azure/cosmos-db/local-emulator)
 [![CQRS pattern](https://img.shields.io/badge/CQRS-pattern-blue.svg)](https://docs.microsoft.com/en-us/azure/architecture/patterns/cqrs)
 [![Mediator pattern](https://img.shields.io/badge/Mediator-pattern-blue.svg)](https://en.wikipedia.org/wiki/Mediator_pattern)
 [![DDD pattern](https://img.shields.io/badge/DDD-pattern-blue.svg)](https://docs.microsoft.com/en-us/dotnet/architecture/microservices/microservice-ddd-cqrs-patterns/ddd-oriented-microservice)
