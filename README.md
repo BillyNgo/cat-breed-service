@@ -1,7 +1,7 @@
 # [Cat Breed Service](https://github.com/BillyNgo/CatBreedService)
 
 [![LICENSE](https://img.shields.io/badge/license-MIT-lightgrey.svg)](https://raw.githubusercontent.com/dpedwards/dotnet-core-blockchain-advanced/master/LICENSE)
-[![.NET Core](https://img.shields.io/badge/.NET-6-blue.svg)](https://dotnet.microsoft.com/download](https://dotnet.microsoft.com/en-us/download/dotnet/6.0))
+[![.NET Core](https://img.shields.io/badge/.NET-6-blue.svg)](https://dotnet.microsoft.com/en-us/download/dotnet/6.0)
 [![Swagger](https://img.shields.io/badge/Swagger-lightgreen.svg)](https://swagger.io/)
 [![CosmosDb](https://img.shields.io/badge/Cosmos-Db-orange.svg)](https://learn.microsoft.com/en-us/azure/cosmos-db/local-emulator)
 [![CQRS pattern](https://img.shields.io/badge/CQRS-pattern-blue.svg)](https://docs.microsoft.com/en-us/azure/architecture/patterns/cqrs)
@@ -97,8 +97,8 @@ dotnet run
 ### Requirements
 
 - [Visual Studio](https://visualstudio.microsoft.com/de/vs/) or [Visual Studio Code](https://code.visualstudio.com/)
-- [.NET Core](https://dotnet.microsoft.com/download)
-- [SQL Server](https://www.microsoft.com/de-de/sql-server/sql-server-downloads)
+- [.NET 6](https://dotnet.microsoft.com/en-us/download/dotnet/6.0)
+- [Azure Cosmos Db Emulator](https://learn.microsoft.com/en-us/azure/cosmos-db/local-emulator)
 
 ### Packages:
 
