@@ -63,7 +63,7 @@ dotnet run
 ```
 **CatBreedService.Api** project is listening on localhost port `7045` (https) and `5173` (http)
 
-- Navigate to `http://localhost:5000/swagger/index.html` to check the API documentation and test all endpoints.
+- Navigate to `http://localhost:7045/swagger/index.html` to check the API documentation and test all endpoints.
 
 ![alt text](https://github.com/BillyNgo/CatBreedService/blob/main/demo.png)
 
