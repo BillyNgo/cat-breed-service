@@ -21,7 +21,7 @@ to be able to provide pictures of cats at a moment's notice whenever someone
 requests them via the internet. The primary goal of this exercise is to structure
 and build an API that allows users to upload and receive cute cat images.
 
-Sample .NET Core Web API application implemented with CQRS, Mediator Pattern approach and Domain Driven Design using Clean Architecture.
+This sample .NET Core Web API application implemented with CQRS, Mediator Pattern approach and Domain Driven Design using Clean Architecture.
 
 ## Architecture:
 
