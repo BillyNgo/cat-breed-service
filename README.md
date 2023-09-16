@@ -19,7 +19,7 @@ Description
 Sample .NET Core Web API application implemented with CQRS, Mediator Pattern approach and Domain Driven Design.
 
 ## Techical Stack:
-- ASP.NET Core 6.0 (with .NET Core 6.0)
+- .NET 6.0
 - ASP.NET Core WebApi 
 - Entity Framework Core
 - .NET Core Native DI
@@ -32,5 +32,13 @@ Sample .NET Core Web API application implemented with CQRS, Mediator Pattern app
 - Moq
 - Fluent Assertions
 - Logging
+
+## Installation
+
+Check if .NET 6.0 and Azure Cosmos Db Emulator is installed on your machine. Next configure the database connection string in `appsettings.Development.json` file before creating a needed database for project. 
+
+To seed data for database, select `CatBreedService.Api` in Visual Studio:
+- `Uncomment line number 73 in Startup.cs in CatBreedService.Api project`
+
 
 
